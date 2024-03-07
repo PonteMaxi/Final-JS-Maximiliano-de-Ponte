@@ -1,0 +1,125 @@
+#cart-container{
+  max-width: 500px;
+  margin: auto;
+  background-color: antiquewhite;
+  border-style: dashed;
+}
+
+.titulo{
+  font-size: 2rem;
+  color: red;
+  font-weight: 800;
+  text-decoration: solid;
+}
+
+.tarjeta-producto{
+  display: flex;
+  align-items: center;
+  height: 100px;
+  gap: 20px;
+  margin: 20px;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.tarjeta-producto img{
+  width: 100px;
+}
+
+.tarjeta-producto h3{
+  width: 130px;
+}
+.tarjeta-producto div{
+  background-color: var(--color-acento-claro);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+#totales{
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#carrito-vacio{
+  text-align: center;
+  font-size: 2rem;
+}
+
+#link-index{
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#reiniciar{
+  font-size: 1.2rem;
+  color: brown;
+  font-weight: 800;
+  background-color: rgb(231, 162, 162);
+  border: unset;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#reiniciar:hover{
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  translate: 0px -5px;
+}
+
+#btn-abrir-modal{
+  font-size: 1.2rem;
+  color: rgb(20, 2, 2);
+  font-weight: 800;
+  background-color: rgb(95, 240, 184);
+  border: unset;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#comprar:hover{
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  translate: 0px -5px;
+}
+
+#totales-seguir-comprando{
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#seguir-comprando{
+  background-color: rgb(211, 205, 205);
+  font-size: 1.2rem;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+#seguir-comprando:hover{
+  translate: 0px -5px;
+}
+
+#modal::backdrop{
+  background-color: rgba(0,0,0,.55);
+}
+
+#modal{
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
+
+#btn-cerrar-modal{
+  margin: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: brown;
+}
